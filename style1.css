@@ -1,0 +1,41 @@
+/* style.css */
+
+.button {
+    -fx-pref-width: 100px;
+    -fx-pref-height: 100px;
+    -fx-font-size: 36px;
+    -fx-background-color: #FFC0CB; /* Light pink background */
+    -fx-border-color: #333333;
+    -fx-border-width: 2px;
+}
+
+.button:hover {
+    -fx-background-color: #FFB6C1; /* Lighter pink background on hover */
+}
+
+.button:pressed {
+    -fx-background-color: #FFA07A; /* Even lighter pink background when pressed */
+}
+
+#board {
+    -fx-padding: 10px;
+    -fx-background-color: #FFC0CB; /* Light pink background */
+    -fx-border-color: #333333;
+    -fx-border-width: 2px;
+}
+
+#status {
+    -fx-font-size: 18px;
+    -fx-text-fill: #333333;
+    -fx-padding: 10px;
+}
+
+.button.x {
+    -fx-font-weight: bold;
+    -fx-text-fill: #0000FF; /* Blue color for X */
+}
+
+.button.o {
+    -fx-font-weight: bold;
+    -fx-text-fill: #00FF00; /* Green color for O */
+}
